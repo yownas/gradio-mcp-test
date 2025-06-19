@@ -32,8 +32,6 @@ def cat_url() -> str:
 with gr.Blocks() as demo:
     gr.Markdown(
         """
-        This is a demo of a MCP-only tool.
-        This tool slices a list.
         This tool is MCP-only, so it does not have a UI.
         """
     )
